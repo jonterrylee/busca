@@ -23,8 +23,7 @@ First follow the instructions bellow to install the development dependencies for
 6. Install project bower dependencies: `bower install`
 
 ### Running the project
-1. When starting work on the project, you should always make sure nvm is using the correct NodeJS version: `nvm use`
-2. Run the project `grunt serve`
+1. Run the project `grunt serve`
 
 
 
