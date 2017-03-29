@@ -1,0 +1,27 @@
+<h4>Enter Business Card details</h4>
+
+<div class="jumbotron">
+
+    <h4>Input</h4>
+    <div>
+      <textarea rows="12" cols="80" ng-model="main.cardInfo" ng-change="main.parseCard(main.cardInfo)" placeholder="Enter card details here."></textarea>
+    </div>
+
+
+    <h4>Output</h4>
+    <div class="output" >
+        <div>Name: {{ main.contactInfo.name }}</div>
+        <div>Phone: {{ main.contactInfo.phoneNumber }}</div>
+        <div>Email: {{ main.contactInfo.emailAddress }}</div>
+    </div>
+
+<!--   <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p> -->
+</div>
+  <h5>Examples</h5>
+
+  <div ng-repeat="cards in main.businessCards">
+  
+  <pre>{{cards}}</pre>
+  <br/>
+
+  </div>
