@@ -25,6 +25,8 @@ First follow the instructions bellow to install the development dependencies for
 ### Running the project
 1. Run the project `grunt serve`
 
+### Live Demo!
+- **[Launch Demo Site](https://jonterrylee.000webhostapp.com/#!/)**
 
 
 ### Interface Specification
