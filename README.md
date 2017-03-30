@@ -8,10 +8,10 @@ If you are interested in contributing the project here are some steps to help yo
 
 First follow the instructions bellow to install the development dependencies for your specific environment:
 
-## Quick start for Unix / Linux systems
+## Quick start
 
 ### Dependency Installation
-1. Install [NodeJS](https://nodejs.org/en/download/) (any version is fine)
+1. Install [NodeJS](https://nodejs.org/en/download/)
 3. Install [Git](https://git-scm.com/downloads)
 
 ### Initial project setup
