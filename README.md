@@ -18,7 +18,7 @@ First follow the instructions bellow to install the development dependencies for
 1. Clone the project: `git clone https://github.com/jonterrylee/business_card_parser.git`
 2. Enter the project's root directory
 3. Ensure you have the correct version of NodeJS installed
-4. Install global packages: `npm install -g bower grunt-cli`
+4. Install global packages (may need root/admin rights): `npm install -g bower grunt-cli`
 5. Install project node dependencies: `npm install`
 6. Install project bower dependencies: `bower install`
 
@@ -40,9 +40,10 @@ BusinessCardParser
 - ContactInfo getContactInfo(String document)
 
 
-### Assumtions and Troubleshooting
+### Assumptions and Troubleshooting
 
   - All regular expressions are tested with current data set.  Should test with wider range of valid and invalid tests
   - Better validation for phone numbers supporting extensions and international numbers.
   - Better way to parse name.  Currently going with just the email address as the best hint.  Should add in additional ways to locate name if name not found in email.
+  - Validation is not needed for example
   
