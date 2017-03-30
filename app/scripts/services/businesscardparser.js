@@ -33,13 +33,9 @@ angular.module('businessCardParserApp')
      */
     function tokenizeData(ocrData) {
 
-    	var tokens = ocrData.split(/\r?\n/);
-    	//var tokens = sanitizedData.split('&#10;');
+    	var sanitizedData = $sanitize(ocrData.split(/\r?\n/));
 
-    	var sanitizedData = $sanitize(tokens);
-    	console.log(sanitizedData);
-
-    	return tokens;
+    	return sanitizedData.split(',');
     }
 
   	/**

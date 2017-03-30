@@ -10,24 +10,29 @@
 angular.module('businessCardParserApp')
   .factory('ContactInfo', function () {
 
-    var ContactInfo = function(name, phoneNumber, emailAddress) {
-        this.name = name;
-        this.phoneNumber = phoneNumber;
-        this.emailAddress = emailAddress;
+    // Private
+    var name, phoneNumber, emailAddress;
+
+    // Constructor
+    var ContactInfo = function(_name, _phoneNumber, _emailAddress) {
+        name = _name;
+        phoneNumber = _phoneNumber;
+        emailAddress = _emailAddress;
     };
 
+
+    // Pubic API
     ContactInfo.prototype.getName = function() {
-      return this.name;
+      return name;
     };
 
     ContactInfo.prototype.getPhoneNumber = function() {
-      return this.phoneNumber;
+      return phoneNumber;
     };
 
     ContactInfo.prototype.getEmailAddress = function() {
-      return this.emailAddress;
+      return emailAddress;
     };
-
     
     return ContactInfo;
     
